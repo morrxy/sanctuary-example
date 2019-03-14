@@ -1,5 +1,19 @@
 import * as S from "sanctuary";
 
+// use this way to replace:
+// repeat if + return, and finally do sth, like:
+// const val = 'some val'
+// if (cond1(val)) {
+//   return
+// }
+// if (cond2(val)) {
+//   return
+// }
+// if (cond3(val)) {
+//   return
+// }
+// work(val)
+
 // > 0
 const gt0 = S.maybe_(() => {
   console.log("skip gt0");
