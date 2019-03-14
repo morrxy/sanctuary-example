@@ -1,2 +1,3 @@
 ## how to run
-`npm start`
+1. `npm start`
+2. open `http://localhost:8080/webpack-dev-server` in browser
