@@ -35,6 +35,16 @@ module.exports = (mode) => {
           filename: 'example2.html',
         })
       ]
+    },
+    {
+      entry: {
+        example3: './src/example-if-return-v3.js'
+      },
+      plugins: [
+        new HtmlWebpackPlugin({
+          filename: 'example3.html',
+        })
+      ]
     }
   ]
 
